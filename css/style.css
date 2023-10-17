@@ -1,0 +1,75 @@
+#main-navbar {
+  background-color: blue;
+  overflow: hidden;
+  font-family: Arial, sans-serif; /* Change the font family */
+}
+
+#main-navbar ul {
+  float: left;
+  left: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#main-navbar ul li {
+  display: block;
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #ff5733; /* Change the text color to a shade of orange */
+  text-decoration: none;
+  font-weight: bold; /* Make the text bold */
+  font-size: 16px; /* Increase font size */
+  transition: color 0.3s; /* Add a smooth color transition */
+}
+
+#main-navbar ul li a:hover {
+  background-color: #000;
+  color: #ff5733; /* Change text color on hover */
+}
+
+#navbar-container {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+#main-navbar #onpage {
+  text-decoration: underline overline;
+  color: #007ACC; /* Change text color for the specific element */
+  font-style: italic; /* Apply italic font style */
+}
+
+#sidebar {
+  background-color: red;
+  height: 100%;
+  width: 20%;
+  position: fixed;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  right: 0%;
+  padding: 0;
+}
+
+#sidebar ul li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: #66ff33; /* Change the text color to a shade of green */
+  padding: 15px 0;
+  font-size: 14px; /* Adjust the font size */
+}
+
+#sidebar ul li a:hover {
+  background-color: #000;
+  color: #ff5733; /* Change text color on hover to orange */
+}
