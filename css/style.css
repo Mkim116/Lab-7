@@ -1,85 +1,63 @@
-#main-navbar {
+#navigation {
   background-color: blue;
-  
+  overflow: hidden;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center the navigation items */
 }
 
-#navbar-container {
-  /* background-color: gray; */
+#navigation ul {
+  position: relative;
+  display: block;
+  padding: 0;
 }
 
-#navbar-container ul {
+#navigation ul li {
+  float: left;
+  left: 50%;
   position: relative;
   list-style-type: none;
-  margin: 3em;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
-  overflow: hidden;
-  /* background-color: red; */
-  /* left: 50%; */
-  text-align: center;
 }
 
-#navbar-container ul li {
-  /* float: center; */ 
-  /* margin: 20px; */
-  /* padding: 10px; */
-  /* background-color: green; */
-  /* right: 50%; */
-  display: inline-block;
-  
-}
-
-#navbar-container ul li a {
-  padding: 10px;
-  text-decoration: none;
+#navigation ul li a {
   display: block;
+  padding: 10px 20px;
   color: #fff;
+  text-decoration: none;
+  background-color: #000;
+  text-decoration: underline overline;
 }
 
-#navbar-container ul li a:hover {
-  background-color: black;
-}
-
-#onpage {
-  text-decoration: overline underline;
-  color: black;
+#navigation ul li a:hover {
+  background-color: #000;
 }
 
 #sidebar {
-  right: 0%;
-  position: fixed;
   background-color: red;
-  width:20%;
+  position: fixed;
+  right: 0;
+  width: 20%;
   height: 100%;
-  
-}
-
-#sidebar-container ul {
-  position: relative;
-  list-style-type: none;
-  /* background-color: salmon; */
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-top: 0px;
- }
-
-#sidebar-container ul li {
-  /* background-color: white; */
-  display: block;
+  padding: 0;
   text-align: center;
-  right: 20%;
 }
 
-#sidebar-container ul li a {
-  text-decoration: none;
-  display:block;
-  padding: 15px 0px;
+#sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  display: block;
+}
+
+#sidebar ul li a {
+  display: block;
+  padding: 15px 0;
   color: #fff;
+  text-decoration: none;
+  background-color: #000;
 }
 
-#sidebar-container ul li a:hover {
-  background-color: black;
-  /* text-decoration: underline; */
-
+#sidebar ul li a:hover {
+  background-color: #000;
 }
