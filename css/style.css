@@ -1,60 +1,85 @@
-
 #main-navbar {
   background-color: blue;
-  overflow: hidden;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  
 }
 
-#main-navbar ul {
-  float: left;
-  width: 100%;
+#navbar-container {
+  /* background-color: gray; */
+}
+
+#navbar-container ul {
+  position: relative;
+  list-style-type: none;
+  margin: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: red; */
+  /* left: 50%; */
   text-align: center;
 }
 
-#main-navbar ul li {
-  float: left;
-  right: 50%;
-  position: relative;
+#navbar-container ul li {
+  /* float: center; */ 
+  /* margin: 20px; */
+  /* padding: 10px; */
+  /* background-color: green; */
+  /* right: 50%; */
+  display: inline-block;
+  
 }
 
-#main-navbar ul li a {
-  display: block;
-  padding: 10px 20px;
-  color: #fff;
+#navbar-container ul li a {
+  padding: 10px;
   text-decoration: none;
-  background-color: #000;
-  text-decoration: underline overline;
+  display: block;
+  color: #fff;
 }
 
-#main-navbar ul li a:hover {
-  background-color: #000;
+#navbar-container ul li a:hover {
+  background-color: black;
+}
+
+#onpage {
+  text-decoration: overline underline;
+  color: black;
 }
 
 #sidebar {
+  right: 0%;
   position: fixed;
-  right: 0;
   background-color: red;
+  width:20%;
   height: 100%;
-  width: 20%;
+  
+}
+
+#sidebar-container ul {
+  position: relative;
   list-style-type: none;
+  /* background-color: salmon; */
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+ }
+
+#sidebar-container ul li {
+  /* background-color: white; */
+  display: block;
   text-align: center;
-  padding: 0;
-  display: block;
+  right: 20%;
 }
 
-#sidebar ul {
-  padding: 0;
-}
-
-#sidebar ul li a {
+#sidebar-container ul li a {
   text-decoration: none;
-  display: block;
+  display:block;
+  padding: 15px 0px;
   color: #fff;
-  padding: 15px 0;
 }
 
-#sidebar ul li a:hover {
-  background-color: #000;
+#sidebar-container ul li a:hover {
+  background-color: black;
+  /* text-decoration: underline; */
+
 }
